@@ -56,3 +56,44 @@ p{
 #textfix{
     padding-right: 100px;
 }
+.thirdsection{
+    display: flex;
+}
+.box{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 60px gray;
+    padding: 20px 30px;
+}
+.heading{
+    font-size: 40px;
+}
+.box p{
+    text-align: justify;
+}
+.color{
+    color: #FFA500;
+}
+.lastsection{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#borderleft2{
+    border-image: repeating-linear-gradient(#0015FF,#00DAFF);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#borderleft1{
+    border-image: repeating-linear-gradient(#FF9B76,#FF684C);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#footer {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9aa79a;
+}
